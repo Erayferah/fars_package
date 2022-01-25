@@ -1,5 +1,4 @@
-# CourseraRDev
-
+# FARS
 The course in coursera platform where you build R package.
 
 ## This is an example repository for a library.
