@@ -1,7 +1,8 @@
 # FARS
-The course in coursera platform where you build R package.
 
-## This is an example repository for a library.
+
+## This is an repository for the package FARS, which was the final task in cre-
+ating R packages course in Coursera.
 
 In this package, there are couple of functions which would be helpful to load, 
 rename, investigate, summarize and plot the data from the US National Highway 
