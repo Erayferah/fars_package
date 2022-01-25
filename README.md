@@ -1,7 +1,7 @@
 # FARS
 
 
-## This is an repository for the package FARS, which was the final task in cre-
+## This is a repository for the package FARS, which was the final task in cre-
 ating R packages course in Coursera.
 
 In this package, there are couple of functions which would be helpful to load, 
