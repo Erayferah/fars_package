@@ -1,6 +1,6 @@
-Package: CourseraRDev
+Package: fars_package
 Type: Package
-Title: Package for Coursera R Package Build Course
+Title: Package for Coursera - Building R Packages Course
 Version: 0.1.0
 Author: Eray Ferah
 Maintainer: Eray Ferah <ery.ferah@gmail.com>
@@ -10,7 +10,9 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
 Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0) Config/testthat/edition: 3)
 Depends: 
     R (>= 2.10)
+VignetteBuilder: knitr
