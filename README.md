@@ -1,4 +1,9 @@
 # FARS
+
+<!-- badges: start -->
+[![Travis build status](https://travis-ci.com/Erayferah/fars_package.svg?branch=main)](https://travis-ci.com/Erayferah/fars_package)
+<!-- badges: end -->
+
 This is a repository for the package FARS, which was the final task in building
 R packages course in Coursera.
 
