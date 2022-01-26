@@ -1,4 +1,4 @@
-Package: fars_package
+Package: farspkg
 Type: Package
 Title: Package for Coursera - Building R Packages Course
 Version: 0.1.0
