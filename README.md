@@ -2,6 +2,7 @@
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.com/Erayferah/fars_package.svg?branch=main)](https://travis-ci.com/Erayferah/fars_package)
+[![R-CMD-check](https://github.com/Erayferah/fars_package/workflows/R-CMD-check/badge.svg)](https://github.com/Erayferah/fars_package/actions)
 <!-- badges: end -->
 
 This is a repository for the package FARS, which was the final task in building
