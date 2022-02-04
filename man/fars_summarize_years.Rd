@@ -16,8 +16,3 @@ a data.frame of summarized data that is converted to wider format
 This is a function that summarize accident csv files based on given year
 vector. This function uses fars_read_years function.
 }
-\examples{
-fars_summarize_years(2013:2015)
-fars_summarize_years(2016) # Throws error.
-
-}

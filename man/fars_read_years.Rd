@@ -17,8 +17,3 @@ MONTH and year from the accident data based on the availability of
 This is a function reads accident csv files based on given year vector, and
    then return months and years. This function uses 2 above functions.
 }
-\examples{
-fars_read_years(2013:2015)
-fars_read_years(2016) # Throws error.
-
-}

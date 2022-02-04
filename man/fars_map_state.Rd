@@ -20,7 +20,3 @@ number, could throw message "invalid STATE number: state.num". Also if there
 are no accidents, shows the message of "no accidents to plot". Uses
 previously defined make_filename and fars_read functions.
 }
-\examples{
-fars_map_state(2, 2015)
-
-}

@@ -20,8 +20,3 @@ decisions based on. If the file does not exist, it throws a warning message.
 If the file exists, it basically imports it as csv and than transforms it
 into tbl data frame.
 }
-\examples{
-fars_read("data/accident_2013.csv")
-fars_read("accident_2014.csv")
-
-}
