@@ -60,8 +60,8 @@ make_filename <- function(year) {
 #'    provided year as a parameter.
 #'
 #' @examples
-#' make_filename(2013)
-#' make_filename(2016) # Throws error.
+#' fars_read_years(2013:2015)
+#' fars_read_years(2016) # Throws error.
 #'
 #' @importFrom dplyr mutate select
 #'
@@ -118,8 +118,6 @@ fars_summarize_years <- function(years) {
 #'
 #' @return a plot with selected criteria
 #'
-#' @examples
-#' fars_map_state(2, 2015)
 #'
 #' @importFrom dplyr filter
 #' @importFrom maps map
