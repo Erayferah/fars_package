@@ -14,12 +14,14 @@ knitr::opts_chunk$set(
 )
 ```
 
+This is how to call the library.
 ```{r setup}
 library(farspkg)
 ```
 
+
+Here is an example function usage for make file.
 ```{r}
-
+make_filename(2013)
 ```
-
 

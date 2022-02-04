@@ -60,8 +60,8 @@ make_filename <- function(year) {
 #'    provided year as a parameter.
 #'
 #' @examples
-#' fars_read_years(2013:2015)
-#' fars_read_years(2016) # Throws error.
+#' make_filename(2013)
+#' make_filename(2016) # Throws error.
 #'
 #' @importFrom dplyr mutate select
 #'
