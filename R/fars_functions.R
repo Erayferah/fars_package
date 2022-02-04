@@ -11,9 +11,6 @@
 #'
 #' @return the data in tbl_df format
 #'
-#' @examples
-#' fars_read("data/accident_2013.csv")
-#' fars_read("accident_2014.csv")
 #'
 #' @importFrom readr read_csv
 #' @importFrom dplyr tbl_df
@@ -59,9 +56,6 @@ make_filename <- function(year) {
 #' @return MONTH and year from the accident data based on the availability of
 #'    provided year as a parameter.
 #'
-#' @examples
-#' fars_read_years(2013:2015)
-#' fars_read_years(2016) # Throws error.
 #'
 #' @importFrom dplyr mutate select
 #'
@@ -89,10 +83,6 @@ fars_read_years <- function(years) {
 #' @param years either scalar or vector
 #'
 #' @return a data.frame of summarized data that is converted to wider format
-#'
-#' @examples
-#' fars_summarize_years(2013:2015)
-#' fars_summarize_years(2016) # Throws error.
 #'
 #' @importFrom dplyr bind_rows group_by summarize
 #' @importFrom tidyr spread
