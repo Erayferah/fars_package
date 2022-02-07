@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Eray Ferah
 Maintainer: Eray Ferah <ery.ferah@gmail.com>
 Description: Couple of functions for Fars data and analyze respective data
-License: MIT License
+License: MIT + file LICENSE
 Imports:
     dplyr,
     tidyr,
